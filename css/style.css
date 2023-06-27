@@ -7,12 +7,20 @@ a{
     display: flex;
     justify-content: center;
 }
+
 .whack-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 400px;
     margin: 0 auto;
     gap: .5rem
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
 .box {
